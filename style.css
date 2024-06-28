@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html, body{
+    height:100%;
+    width:100%;
+    padding:0 10px 0 10px;
+}
+header h1{
+    text-align:center;
+    font-family:"open sans";
+    font-size:20px;
+}
+#contact{
+    margin-bottom:10px;
+    margin-top:8px;
+    text-align:center;
+    font-size:small;
+}
+#contact>p>a{
+    text-decoration:none;
+    color:rgb(59, 59, 255);
+}
+section>h4{
+    margin-top:10px;
+    font-family:"open sans";
+    margin-bottom:8px;
+}
+.college{
+    margin-top:8px;
+    font-family:"open sans";
+    font-size:12px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+list>li{
+    line-height:2;
+    font-family:"open sans";
+    font-size:11.5px;
+}
+#Skills>p{
+    margin-top:8px;
+}
+.projects{
+    margin-top: 8px;
+}
+.projects>p{
+    font-family:"open sans";
+    font-size:13px;
+}
+.projects>a{
+    text-decoration:underline;
+}
+.contacts{
+    padding-left:10px;
+    padding-top:8px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+.contacts>img{
+    height:30px;
+    width:30px;
+    object-fit:cover;
+}
+.contacts>p>a{
+    margin-left:4px;
+    text-decoration:none;
+}
