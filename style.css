@@ -36,6 +36,9 @@ section>h4{
     flex-direction:row;
     justify-content:space-between;
 }
+#education li{
+    font-size:13px;
+}
 list>li{
     line-height:2;
     font-family:"open sans";
@@ -43,6 +46,10 @@ list>li{
 }
 #Skills>p{
     margin-top:8px;
+}
+#Skills li{
+    font-weight:400;
+    font-size: 13px;
 }
 .projects{
     margin-top: 8px;
